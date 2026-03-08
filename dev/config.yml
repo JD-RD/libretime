@@ -34,10 +34,10 @@ stream:
     .default_icecast_output: &default_icecast_output
       host: icecast
       port: 8000
-      source_password: hackme
-      admin_password: hackme
-      name: LibreTime!
-      description: LibreTime Radio!
+      source_password: L4f4ceBL4f4ceBL4f4ceB
+      admin_password: L4f4ceBL4f4ceBL4f4ceB
+      name: La Face B
+      description: PLUS FORT! ⚡
       website: https://libretime.org
       genre: various
 
