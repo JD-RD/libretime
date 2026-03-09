@@ -1,0 +1,29 @@
+services:
+  legacy:
+    build:
+      context: .
+      target: libretime-legacy
+  nginx:
+    build:
+      context: .
+      target: libretime-nginx
+  api:
+    build:
+      context: .
+      target: libretime-api
+  analyzer:
+    build:
+      context: .
+      target: libretime-analyzer
+  worker:
+    build:
+      context: .
+      target: libretime-worker
+  playout:
+    build:
+      context: .
+      target: libretime-playout
+  liquidsoap:
+    build:
+      context: .
+      target: libretime-playout
